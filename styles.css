@@ -1,6 +1,6 @@
 *{
     background-color: #E6C4C0;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
     color: #FAEEE7;
 }
@@ -29,7 +29,7 @@
 /*contact*/
 .contact_txt{ padding-top: 100px;}
 .form{
-    font-family: 'Courier New', Courier, monospace;
+    color:#926E6F ;
     display: flexbox;
     justify-content:center;
     align-items:center;
@@ -53,7 +53,7 @@ li{ display: inline-block; }
 
 
 /*index header image*/
-.monitor_img{
+.spam_img{
     position: relative;
     display: block;
     margin-left: auto;
@@ -64,25 +64,30 @@ li{ display: inline-block; }
 }
 
 
-/*anchored image*/
-.page_img{
+/*monitor image*/
+.cm{
     display: flex;
     justify-content: flex-end;
     align-items: end;
-}
-.cm{
     height: 15%;
     width: 15%;
     opacity: 20%;  
 }
 
 
+
 /*portfolio -- images*/
 .imgs{
-    display: inline-block;
-    text-align: center;
-    margin-bottom: 100px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, minmax(150px, 1fr));
 }
+.imgs img{
+    width: 100%;
+    height: 100%;
+}
+
+
 .smokey{
     height: 25%;
     width: 25%;
@@ -114,19 +119,33 @@ li{ display: inline-block; }
     padding:10px;
 }
 
+/*About pic*/
+.profile_pic{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30%;
+    width: 30%;
+}
+.profile_pic:hover{opacity: 100%;}
 
 /*texts -- index*/
 .middle_txt{
     display:inline-block;
     align-items: baseline;
 }
-.side_txt{
-    display: inline-block;
-    padding-bottom: 150px;
-    margin-top: -20px;
+.left_side_txt{
+    position:fixed;
+    float:left;
+    font-size: xx-large;
+    margin-left: 150px;
+    padding-top: 300px;
+    padding-left: 150px;
 }
 
 
 
 
+/*buttons*/
 button:hover{ background-color: #926E6F; margin: 1px; }
