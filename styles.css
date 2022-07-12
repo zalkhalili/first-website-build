@@ -1,0 +1,131 @@
+*{
+    background-color: #E6C4C0;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    color: #FAEEE7;
+}
+
+
+/*header txt background*/
+.active{ background-color: #CA8A8B;}
+.contact{ background-color: #CA8A8B;}
+.about{ background-color: #CA8A8B;}
+.port{ background-color: #CA8A8B;}
+
+.header_menu{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    padding-left: 90px;
+    padding-right: 90px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: large;
+    background-color:#CA8A8B;
+    opacity: 0.60;
+}
+
+/*contact*/
+.contact_txt{ padding-top: 100px;}
+.form{
+    font-family: 'Courier New', Courier, monospace;
+    display: flexbox;
+    justify-content:center;
+    align-items:center;
+    margin: auto;
+    width: 20%;
+    border: 1px;
+    padding: 50px;
+}
+
+/*links*/
+a:hover{ color: blueviolet; text-decoration: none; }
+a:link{ text-decoration:none;}
+a:visited{ text-decoration: none; }
+a:active{ text-decoration: none; }
+a.hover{cursor: pointer;}
+img:hover{ opacity: 50%;}
+.about_links{ margin-right: 45px; }
+ul{ text-align: center; }
+li{ display: inline-block; }
+
+
+/*index header image*/
+.monitor_img{
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 30%;
+    width: 30%;
+    opacity: 50%;
+}
+
+
+/*anchored img*/
+.page_img{
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+}
+.cm{
+    height: 15%;
+    width: 15%;
+    opacity: 20%;  
+}
+
+
+/*portfolio images*/
+.imgs{
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.smokey{
+    height: 25%;
+    width: 25%;
+    padding: 10px;
+}
+.thoughts{
+    height: 25%;
+    width: 25%;
+    padding:10px;
+}
+.game{
+    height: 25%;
+    width: 25%;
+    padding:10px;
+}
+.see_speak_hear{
+    height: 25%;
+    width: 25%;
+    padding:10px;
+}
+.open_mind{
+    height: 25%;
+    width: 25%;
+    padding:10px;
+}
+.moon_view{
+    height: 25%;
+    width: 25%;
+    padding:10px;
+}
+
+
+/*texts -- index*/
+.middle_txt{
+    display:inline-block;
+    align-items: baseline;
+}
+.side_txt{
+    display: inline-block;
+    padding-bottom: 250px;
+    margin-top: -20px;
+    margin-bottom: 100px;
+}
+
+
+
+
+button:hover{ background-color: hotpink; margin: 1px; }
